@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Angel Lopez</title>
+  <img class="im" src="images/inf.jpg">
+
+    <!--   Menu plegable        -->
+
+    <style type="text/css">
+
+      * {
+          padding: 0px;
+          margin: 0px;
+      }
+
+      #header {
+        margin: auto;
+        width: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      ul, ol{
+        list-style: none;
+      }
+
+      .nav li a {
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+      }
+
+      .nav li a> :hover{
+        background-color: #434343;
+      }
+
+      .nav > li {
+        float: left;
+
+      }
+
+      .nav li ul{
+        display: none;
+        position: absolute;
+        min-width: 120px;
+      }
+
+      .nav li:hover > ul{
+
+        display: block;
+      }
+
+      .nav li ul li {
+        position: relative;
+      }
+
+      .nav li ul li ul {
+        right: -120px;
+        top: 0px;
+      }
+
+    </style>
+
+
+
+  <!--Fin menu plegable-->
+
+</head>
+<body>
+  <h2 class="titulo">Hello, I'm</h2>
+  <h1 class="titulo1">Angel Gabriel Lopez Ramos</h1>
+  <h2 class="portfolio">PORTFOLIOO</h2>
+
+  <div id="header">
+      <ul class="nav">
+        <li><a href="">HOME</a></li>
+
+        <li><a href="">PROJECTS</a>
+          <ul>
+            <li><a href="">PROJECT1</a></li>
+            <li><a href="">PROJECT2</a></li>
+            <li><a href="">PROJECT3</a></li>
+
+          </ul>
+        </li>
+
+        <li><a href="">ABOUT</a></li>
+
+        <li><a href="">CONTACT</a>
+          <ul>
+            <li><a href="">INSTAGRAM</a></li>
+            <li><a href="">GMAIL</a></li>
+            <li><a href="">GITHUB</a></li>
+          </ul>
+        </li>
+      </ul>
+  </div>
+
+
+
+
+</body>
+</html>
