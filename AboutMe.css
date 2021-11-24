@@ -1,0 +1,34 @@
+body {margin:0; padding:0; width:100%; height:100%; overflow:hidden;}
+#background{position:absolute; width:100%; height:100%;}
+
+body{
+background-image: url('/gif.gif');
+background-size: cover;
+}
+
+h2.portfolio
+{
+    color: white;
+    position: relative;
+    left: 70px;
+    bottom: -65px;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ul.nav
+{
+    position:relative;
+    left: 620px;
+    bottom: 65px;
+    font-size: 20px;
+}
+
+
+.aud {
+    position: relative;
+    bottom: -835px;
+    left: 20px;
+
+}
