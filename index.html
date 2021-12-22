@@ -1,71 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, maximun-scale=1.0 ,minimum-scale=1.0, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <title>Angel Lopez</title>
-
-
-<script src=»js_t_otros/audio.min.js»></script>
-
-<script>
-audiojs.events.ready(function(){
-var as = audiojs.createAll();
-});
-</script>
-
-
+	<meta charset="UTF-8">
+	<title>Angel Lopez</title>
+	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  
-  <div class="contenedor">
-    <!--  Menu  -->
 
-      <ul class="menu">
-        <li><a href="https://angellopez64.github.io/">HOME</a></li>
-        <li><a href="">PROJECTS</a></li>
-        <li><a href="/AboutMe.html">ABOUT ME</a></li>
-        <li><a href="">CONTACT</a></li>
-      </ul>
+	<header class="header">
+
+		<div class="container">
+
+      <div class="btn-menu">
+        <label for="btn-menu">☰</label>
+      </div>
+        <div class="logo">
+          <h1>Portfolio</h1>
+        </div>
+        <nav class="menu">
+          <a href="#">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">About me</a>
+          <a href="#">Contact</a>
+        </nav>
+		</div>
 
 
-    <!--  Fin menu  -->  
+	</header>
+	<div class="capa"></div>
 
-    <h2 class="portfolio"> 
-      <table width=0%" align="center" border="6" cellspacing="0" cellpadding="0">
-        <tr>
-          <td>
-              <fieldset>
-                PORTFOLIO
-              </fieldset>
-            </td>
-          </tr>
-        </table>
-      </h2> 
-      
-    <div align="center">
+  <input type="checkbox" id="btn-menu">
+  <div class="container-menu">
+    <div class="cont-menu">
+      <nav>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Github</a>
+        <a href="#">Donations</a>
+      </nav>
+     <label for="btn-menu">✖️</label>
+    </div>
+  </div>
+
+  <div align="center">
       <h2 class="titulo">Hello, I'm</h2>
       <h1 class="titulo1">Angel Lopez</h1>
-    </div> 
-      
-
-    <div class="aud">
-    <p align=center>
-    <audio  src="/music.mp" autoplay controls loop></audio>
-      </p>
     </div>
 
 
-    
-
-
-
-
-
-
-  </div>
-
 </body>
+
 </html>
+
+
