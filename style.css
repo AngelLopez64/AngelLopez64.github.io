@@ -7,7 +7,7 @@
 	}
 
 	body{
-		background: url(fondo1.gif);
+		background: url(fondo3.jpg);
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 	}
@@ -48,7 +48,7 @@
 	.logo h1{
 		color: #fff;
 		font-weight: 400;
-		font-size: 22px;
+		font-size: 25px;
 		margin-left: 10px;
 	}
 
@@ -65,7 +65,7 @@
 		color: #fff;
 		transition: all 0.3s ease;
 		border-bottom: 2px solid transparent;
-		font-size: 15px;
+		font-size: 25px;
 		margin-right: 5px;
 	}
 
@@ -75,7 +75,8 @@
 	}
 
 
-	/*Menu lateral*/
+	/* Menu lateral */
+
 	#btn-menu{
 		display: none;
 	}
@@ -111,7 +112,7 @@
 	.cont-menu nav a{
 		display: block;
 		text-decoration: none;
-		padding: 20px;
+		padding:30px;
 		color: #c7c7c7;
 		border-left: 5px solid transparent;
 		transition: all 400ms ease;
@@ -128,15 +129,15 @@
 		cursor: pointer;
 		font-size: 18px;
 	}
-	/*Fin Menù lateral*/
+	/* Fin Menù lateral */
 
 
     h2.titulo
     {
-        color: gray;
+        color: white;
         position: relative;
         font-size: 35px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:'Montserrat Alternates', sans-serif;
         bottom: -160px;
     }
     
@@ -146,5 +147,66 @@
         position: relative;
         bottom: -180px;
         font-size: 80px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:'Montserrat Alternates', sans-serif;
     }
+
+
+.contenedor {
+   
+	display: flex;
+	width: 700px;
+	height:40px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+	
+	position:relative;
+	top: -230px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin:auto;
+	
+	overflow: hidden;
+	}
+	
+	ul {
+	 list-style: none;
+	 padding-left: 15px;
+	 animation: cambiar 5s infinite;
+	 
+	}
+	
+	ul, p {
+	 margin: 0;
+	}
+ 
+ @keyframes  cambiar {
+  
+	0%{ margin-top: 0;}
+   20%{ margin-top: 0;}
+   
+   25% { margin-top: 0PX;}
+   50% { margin-top: 0PX;}
+   
+   55% { margin-top: -40PX;}
+   80% { margin-top: -40PX;}
+   
+   85% { margin-top: -40PX;}
+   95% { margin-top: -40PX;}
+   
+  100% { margin-top: 0;}
+  
+ }
+ 
+ li{
+	color: red;
+ }
+
+ .imagen img{
+	margin: auto;
+	bottom: -320px;
+	position:relative;	
+}
+
+/* Section About me */
