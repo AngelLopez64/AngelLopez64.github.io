@@ -54,26 +54,13 @@
 
 	.container .menu{
 		float: right;
-		line-height: 100px;
+		line-height: 135px;
 	}
 
 	.container .menu a{
 		display: inline-block;
-		padding: 15px;
-		line-height: normal;
-		text-decoration: none;
-		color: #fff;
-		transition: all 0.3s ease;
-		border-bottom: 2px solid transparent;
-		font-size: 25px;
-		margin-right: 5px;
+		margin-right: 10px;
 	}
-
-	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
-		padding-bottom: 5px;
-	}
-
 
 	/* Menu lateral */
 
@@ -165,17 +152,11 @@ img{
 	line-height: 1.5;
 	color: white;
 	font-family: 'Montserrat Alternates', sans-serif;
-}
-
-.card .contenido h3{
-	font-weight: 400;
-	margin-bottom: 15px;
-	color: white;
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 40px;
+	font-size: 25px;
 }
 
 .card .contenido a{
+	font-size: 25px;
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px;
@@ -184,6 +165,7 @@ img{
 	border: 1px solid #2fb4cc;
 	border-radius: 4px;
 	transition: all 400ms ease;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .card .contenido a:hover{
@@ -191,4 +173,4 @@ img{
 	color: white;
 }
 
-	/* Fin Menù lateral */
+	/* Fin Caratula */

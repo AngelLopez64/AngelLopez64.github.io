@@ -54,26 +54,13 @@
 
 	.container .menu{
 		float: right;
-		line-height: 100px;
+		line-height: 135px;
 	}
 
 	.container .menu a{
 		display: inline-block;
-		padding: 15px;
-		line-height: normal;
-		text-decoration: none;
-		color: #fff;
-		transition: all 0.3s ease;
-		border-bottom: 2px solid transparent;
-		font-size: 25px;
-		margin-right: 5px;
+		margin-right: 10px;
 	}
-
-	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
-		padding-bottom: 5px;
-	}
-
 
 	/* Menu lateral */
 
@@ -138,14 +125,14 @@
         position: relative;
         font-size: 35px;
         font-family:'Montserrat Alternates', sans-serif;
-        bottom: -160px;
+        bottom: -100px;
     }
     
     h1.titulo1
     {
         color: white;
         position: relative;
-        bottom: -180px;
+        bottom: -130px;
         font-size: 80px;
         font-family:'Montserrat Alternates', sans-serif;
     }
@@ -161,7 +148,7 @@
 	line-height: 40px;
 	
 	position:relative;
-	top: -230px;
+	top: -290px;
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
@@ -174,7 +161,6 @@
 	 list-style: none;
 	 padding-left: 15px;
 	 animation: cambiar 5s infinite;
-	 
 	}
 	
 	ul, p {
@@ -205,6 +191,6 @@
 
  .imagen img{
 	margin: auto;
-	bottom: -320px;
+	bottom: -250px;
 	position:relative;	
 }
