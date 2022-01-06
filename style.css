@@ -7,7 +7,7 @@
 	}
 
 	body{
-		background: url(fondo3.jpg);
+		background: url(Images/fondo3.jpg);
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 	}
@@ -208,5 +208,3 @@
 	bottom: -320px;
 	position:relative;	
 }
-
-/* Section About me */
