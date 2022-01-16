@@ -82,6 +82,7 @@
 	#btn-menu:checked ~ .container-menu{
 		opacity: 1;
 		visibility: visible;
+		
 	}
 	.cont-menu{
 		width: 100%;

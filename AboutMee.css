@@ -76,12 +76,12 @@
         bottom: -300px;
     }
 
-
 	.contenedorC{
 		width: 100%;
 		display: flex;
-		max-width: 550px;
+		max-width: 1100px;
 		top: 100px;
+		height: 900px;
 	} 
 
 	.card2{
@@ -92,6 +92,8 @@
 		overflow: hidden;
 		background: black;
 		transition: all 400ms ease;
+		border: 1px solid gray;
+		max-height: 700px;
 	}
 
 	.card2 .contenido1{
@@ -101,7 +103,7 @@
 	
 	.card2 .contenido1 p{
 		line-height: 1.5;
-		color: #6a6a6a;
+		color: white;
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-size: 20px;
 	}
