@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
 	*{
 		margin: 0;
 		padding: 0;
@@ -7,25 +8,17 @@
 	}
 
 	body{
-		background: black;
+		background: rgb(31, 27, 27);
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 	}
 
-	.capa{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background: rgba(0,0,0,0.6);
-		z-index: -1;
-		top: 0;left: 0;
-	}
-
 	.header{
-		width: 100%;
-		height: 100px;
+		width: 80%;
+		height: 59px;
 		position: fixed;
-		top: 0;left: 0;
+		top: 0;left: 10%;
+		background: rgb(0, 0, 0);
 	}
 
 	.container{
@@ -36,93 +29,36 @@
 
 	.container .btn-menu, .logo{
 		float: left;
-		line-height:100px;
-	}
-
-	.container .btn-menu label{
-		color: #fff;
-		font-size: 25px;
-		cursor: pointer;
+		line-height:60px;
+		
 	}
 
 	.logo h1{
 		color: #fff;
 		font-weight: 400;
-		font-size: 25px;
+		font-size: 30px;
 		margin-left: 10px;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 	.container .menu{
 		float: right;
-		line-height: 135px;
+		line-height: 60px;
 	}
 
 	.container .menu a{
 		display: inline-block;
-		margin-right: 10px;
 		line-height: normal;
-	}
-
-	/* Menu lateral */
-
-	#btn-menu{
-		display: none;
-	}
-	.container-menu{
-		position: absolute;
-		background: rgba(0,0,0,0.5);
-		width: 100%;
-		height: 100%;
-		top: 0;left: 0;
-		transition: all 500ms ease;
-		opacity: 0;
-		visibility: hidden;
-		max-height: 500%;
-		
-	}
-	#btn-menu:checked ~ .container-menu{
-		opacity: 1;
-		visibility: visible;
-	}
-	.cont-menu{
-		width: 100%;
-		max-width: 250px;
-		background: #1c1c1c;
-		height: 100%;
-		position: relative;
-		transition: all 500ms ease;
-		transform: translateX(-100%);
-	}
-	#btn-menu:checked ~ .container-menu .cont-menu{
-		transform: translateX(0%);
-	}
-	.cont-menu nav{
-		transform: translateY(15%);
-		font-size: 20px;
-		
-	}
-	.cont-menu nav a{
-		display: block;
-		text-decoration: none;
-		padding:50px;
-		color: #c7c7c7;
-		border-left: 10px solid transparent;
-		transition: all 400ms ease;
-	}
-	.cont-menu nav a:hover{
-		border-left: 10px solid #c7c7c7;
-		background: #1f1f1f;
-	}
-	.cont-menu label{
-		position: absolute;
-		right: 15px;
-		top: 15px;
 		color: #fff;
-		cursor: pointer;
-		font-size: 25px;
+		text-decoration: none;
+		padding: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+		transition: color 0.3 ease;
 	}
-	/* Fin Menù lateral */
 
+	.container .menu a:hover{
+		color: crimson;
+	}
 
 	/* Caratula Home */
 
@@ -139,7 +75,7 @@
     {
         color: white;
         position: relative;
-        bottom: -100px;
+        bottom: -90px;
         font-size: 80px;
         font-family:'Montserrat Alternates', sans-serif;
     }
@@ -154,7 +90,7 @@
 	line-height: 40px;
 	
 	position:relative;
-	top: -430px;
+	top: -380px;
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
@@ -197,144 +133,21 @@
 
  .imagen img{
 	margin: auto;
-	bottom: -220px;
+	bottom: -200px;
 	position:relative;	
-	height: 550px;
-	width: 320px;
+	height: 500px;
+	width: 300px;
 }
 
 	/* Fin Caratula Home */
 
-    
-    /* Caratula Section About Me */
 
-	.contenedorr{
-		width: 100%;
-		display: flex;
-		max-width: 850px;
-		top: 100px;
+	/* Redes */
+
+	.menu1{
 		position: relative;
-	} 
-	
-	.card{
-		width: 100%;
-		margin: 20px;
-		border-radius: 6px;
-		overflow: hidden;
-		background: none;
-		cursor: default;
-		transition: all 400ms ease;
-	}
-	
-	img{
-		width: 100%;
-	}
-	
-	.card .contenido{
-		padding: 15px;
 		text-align: center;
-	}
-	
-	.card .contenido p{
-		line-height: 1.5;
-		color: white;
-		font-family: 'Montserrat Alternates', sans-serif;
-		font-size: 25px;
-	}
-	
-	.card .contenido a{
-		font-size: 25px;
-		text-decoration: none;
-		display: inline-block;
-		padding: 10px;
-		margin-top: 10px;
-		color: #2fb1cc;
-		border: 1px solid #2fb4cc;
-		border-radius: 4px;
-		transition: all 400ms ease;
-		font-family: 'Montserrat Alternates', sans-serif;
-	}
-	
-	.card .contenido a:hover{
-		background: #2fb4cc;
-		color: white;
-	}
-	
-		/* Fin Caratula About Me */
-
-
-	/* Caratula Section Certificados */
-
-
-	h2.Certificates
-    {
-        color: white;
-        position:relative;
-        font-size: 50px;
-        font-family:'Montserrat Alternates', sans-serif;
-        bottom: -300px;
-    }
-
-	.contenedorC{
-		width: 100%;
-		display: flex;
-		max-width: 1100px;
-		top: 100px;
-		height: 700px;
-	} 
-
-	.card2{
-		position: relative;
-		bottom: -450px;
-		width: 100%;
-		border-radius: 6px;
-		overflow: hidden;
-		background: black;
-		transition: all 400ms ease;
-		border: 1px solid gray;
-		max-height: 700px;
-		margin: 20px;
-		margin-top: 20px;
+		bottom: -180px;
 	}
 
-	.card2 .contenido1{
-		padding: 15px;
-		text-align: center;
-	}
-	
-	.card2 .contenido1 p{
-		line-height: 1.5;
-		color: white;
-		font-family: 'Montserrat Alternates', sans-serif;
-		font-size: 20px;
-	}
-	
-	.card2 h3{
-		color: white;
-		font-weight: 400;
-		margin-bottom: 20px;
-		font-size: 35px;
-	}
-
-
-	.card2 .contenido1 a{
-		font-size: 25px;
-		text-decoration: none;
-		display: inline-block;
-		padding: 10px;
-		margin-top: 10px;
-		color: #2fb1cc;
-		border: 1px solid #2fb4cc;
-		border-radius: 4px;
-		transition: all 400ms ease;
-		font-family: 'Montserrat Alternates', sans-serif;
-	}
-	
-	.card2 .contenido1 a:hover{
-		background: #2fb4cc;
-		color: white;
-	}
-	
-
-		/* Fin Caratula certificados */
-
+	/* Fin Redes */
