@@ -11,13 +11,19 @@
         display: flex;
     }
 
+    #center{
+        width:100%;
+        margin: 0px auto;
+        max-width: 584px;
+    }
+
     .form{
         background-color: none;
         width: 90%;
-        max-width: 400px;
+        max-width: 500px;
         border-radius: 1em;
-        padding: 3.5em 1.5em;
-        margin: auto;
+        padding: 70px;
+        margin: 0px auto;
     }
 
     .form_container{
@@ -61,4 +67,49 @@
         border-radius: .2em;
         cursor: pointer;
         font-weight: 400;
+    }
+
+    .contenedorC{
+		width: 100%;
+		display: flex;
+		max-width: 1200px;
+		height: 400px;
+	} 
+
+	.card2{
+		width: 100%;
+		border-radius: 6px;
+		overflow: hidden;
+		background: rgb(65, 64, 64);
+		transition: all 400ms ease;
+		border: 1px solid gray;
+		max-height: 700px;
+		margin: 20px;
+	}
+
+	.card2 .contenido1{
+		text-align: center;
+	}
+	
+    .card2 h3{
+        text-align: center;
+    }
+
+	.card2 .contenido1 p{
+		line-height: 1.5;
+		color: white;
+		font-family: 'Montserrat Alternates', sans-serif;
+		font-size: 15px;
+	}
+	
+	.card2 h3{
+		color: white;
+		font-weight: 400;
+		margin-bottom: 20px;
+		font-size: 25px;
+	}
+
+    img{
+        margin: 25px;
+        height: 200px;
     }
