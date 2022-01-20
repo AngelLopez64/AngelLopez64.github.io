@@ -4,7 +4,6 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		font-family: 'Montserrat Alternates', sans-serif;
 	}
 
 	body{
@@ -63,12 +62,16 @@
 	/* Caratula Home */
 
 	.Caratula{
-		padding: 80px;
+		padding: 70px;
+	}
+
+	.Caratula1{
+		padding: 20px;
 	}
 
 	h2.titulo
     {
-
+		padding: 10px;
         color: white;
         font-size: 35px;
         font-family:'Montserrat Alternates', sans-serif;
@@ -82,6 +85,7 @@
     }
 
 .contenedor {
+	font-family: 'Montserrat Alternates', sans-serif;
 	display: flex;
 	width: 700px;
 	height:40px;
@@ -127,10 +131,6 @@
 	color: red;
  }
 
- .imagen img{
-	padding: 30px;
-}
-
 	/* Fin Caratula Home */
 
 
@@ -138,6 +138,7 @@
 
 	.menu1{
 		text-align: center;
+		padding: 20px;
 	}
 
 	/* Fin Redes */
