@@ -22,7 +22,7 @@
         width: 90%;
         max-width: 500px;
         border-radius: 1em;
-        padding: 90px;
+        padding: 105px;
         margin: 0px auto;
     }
 
@@ -36,7 +36,7 @@
     .form_title{
         color: white;
         text-align: center;
-        font-size: 2.9rem;
+        font-size: 40px;
         margin-bottom: .4em;
     }
 
@@ -59,7 +59,7 @@
 
     .form_cta{
         font-family: inherit;
-        background-color: #089fe0;
+        background-color: crimson;
         color: white;
         border: none;
         font-weight: 300;
