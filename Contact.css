@@ -83,7 +83,7 @@
 		background: rgb(65, 64, 64);
 		transition: all 400ms ease;
 		border: 1px solid gray;
-		max-height: 600px;
+		max-height: 180px;
 		margin: 20px;
 	}
 
@@ -93,14 +93,6 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-size: 15px;
         text-align: center
-	}
-	
-	.card2 h3{
-		color: white;
-		font-weight: 400;
-		margin-bottom: 15px;
-		font-size: 25px;
-        text-align: center;
 	}
 
     .card2 img{

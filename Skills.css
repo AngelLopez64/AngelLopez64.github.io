@@ -87,10 +87,10 @@
         width: 40%;
     }
 
-    .skills-content .right .php::before{
+    .skills-content .right .Pascal::before{
         width: 50%;
     }
 
-    .skills-content .right .mysql::before{
-        width: 50%;
+    .skills-content .right .Phyton::before{
+        width: 40%;
     }
