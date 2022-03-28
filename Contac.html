@@ -3,31 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Angel Lopez</title>
-	<link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/Contact.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Contact.css">
 </head>
 <body>
 
-    <!-- Menu -->
+  <div id="particles-js"></div> 
 
-	<header class="header">
-		<div class="container">
-        <div class="logo">
-          <h1>PORTFOLIO</h1>
-        </div>
-        <nav class="menu">
-          <a href="/index.html">Home</a>
-          <a href="/Projects.html">Projects</a>
-          <a href="/AboutMe.html">About Me</a>
-          <a href="/Skills.html">Skills</a>
-          <a href="/Contac.html">Contact</a>
-        </nav>
-		</div>
+  <!-- Menu -->
 
-	</header>
-	<div class="capa"></div>
+  <nav class="navbar">
+    <h1>PORTFOLIO</h1>
+      <div class="max-width">
+          <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Projects.html">Projects</a></li>
+              <li><a href="AboutMe.html">About Me</a></li>
+              <li><a href="Skills.html">Skills</a></li>
+              <li><a href="Contac.html">Contact</a></li>
+          </ul>
+          <div class="menu-btn">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </nav>
 
-  <!-- Fin Menu -->
+<!-- Fin Menu -->
 
   <!-- Contact -->
   <div id="center">
@@ -44,41 +45,48 @@
           </div>
       </form>
 
-      <div class="contenedorC">
-        <div class="card2">
-          <figure>
-            <img src="/Images/gmail.jpg" alt="">
-          </figure>
-          <div class="contenido1">
-            <p>angellopez148664@gmail.com</p>
-          </div>
-        </div>
-        <div class="card2">
-          <figure>
-            <img src="/Images/whatsaap.png" alt="">
-          </figure> 
-          <div class="contenido1">
-            <p>+54 221 6685723</p>
-          </div>
-        </div>
-      </div>
+      <div class="direct-contact-container">
 
-       <!-- Redes -->
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Argentina,Bs As, La Plata</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone">+54 221 668 5723</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail">angellopez148664@gmail.com</span></i></li>
+          
+        </ul>
 
-    <nav class="menu1">
-      <a href="https://www.instagram.com/angel_lopezz64/?hl=es-la"><img src="/Images/ig.png" alt=""></a>
-      <a href="https://github.com/AngelLopez64"><img src="/Images/github.png" alt=""></a>
-      <a href="https://www.linkedin.com/in/angel-gabriel-lopez-ramos-b69640229/"><img src="/Images/linkedin.png" alt=""></a>
-    </nav>
-
-    <!-- Fin Redes -->
+        <hr>
+            <ul class="social-media-list">
+                <li><a href="https://www.facebook.com/CubicSteelFramingDisenoYConstruccion" target="_blank" class="contact-icon">
+                    <img src="/Images/ig.png" alt=""></a>
+                </li>
+                <li><a href="https://www.instagram.com/group.steel/?hl=es-la" target="_blank" class="contact-icon">
+                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>   
+                <li><a href="https://wa.me/+542216656262?text=Hola%20quiero%20hacer%20una%20consulta" target="_blank" class="contact-icon">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                </li>       
+            </ul>
+        <hr>
+    
+    </div>
 
     </section>
   </div>
 
   <!-- Fin Contact -->
 
+  <!-- Footer -->
 
+  <footer>
+    <span>Created By <a href="https://angellopez64.github.io">Angel Lopez</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+  </footer>
+
+  <!-- Fin Footer -->
+
+  <script src="./particles.js-master/particles.js"></script>
+  <script src="script.js"></script>
 
 </body>
 
