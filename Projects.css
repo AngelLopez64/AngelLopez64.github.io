@@ -1,56 +1,30 @@
-#contenedor{
-    text-align: center;
-}
-
-input[type="radio"] { 
-    display: none;
-}
-
-label{
-    margin: 0px 10px;
-    cursor: pointer;
-    color: var(--Letras);
-    font-size: 25px;
-    padding: 10px;
-}
-
-label:hover{
-    color: var(--colorP);
-}
-
-
-.contenedorC{
-	width: 100%;
-	display: flex;
-	max-width: 1100px;
-	height: 600px;
-} 
-
-.card2{
-	width: 100%;
+.projectos{
+	width: 94%;
+	max-width: 500px;
+	margin-right: 3%;
+	margin-left: 3%;
 	border-radius: 6px;
-	overflow: hidden;
-	background: var(--colorS);
 	transition: all 400ms ease;
-	border: 1px solid gray;
-	max-height: 450px;
-	margin: 20px;
-	margin-top: 20px;
+	border: 2px solid var(--colorP);
+	height: 450px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: inline-grid;
 }
 
-.card2 .contenido1{
+.projectos .contenido1{
 	padding: 15px;
 	text-align: center;
 }
 	
-.card2 .contenido1 p{
+.projectos .contenido1 p{
 	line-height: 1.5;
 	color: var(--Letras);
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: 20px;
 }
 	
-.card2 h3{
+.projectos h3{
 	color: var(--Letras);
 	font-weight: 400;
 	margin-bottom: 20px;
@@ -58,21 +32,40 @@ label:hover{
 	font-size: 30px;
 }
 
-
-.card2 .contenido1 a{
+.projectos .contenido1 a{
 	font-size: 25px;
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px;
 	margin-top: 10px;
-	color: crimson;
-	border: 1px solid crimson;
+	color: var(--colorP);
+	border: 1px solid var(--colorP);
 	border-radius: 4px;
 	transition: all 400ms ease;
 	font-family: 'Montserrat Alternates', sans-serif;
 }
 	
-.card2 .contenido1 a:hover{
-	background: crimson;
-	color: white;
+.projectos .contenido1 a:hover{
+	background: var(--colorP);
+	color: var(--Letras);
+}
+
+@media (max-width: 1144px){
+	.projectos{
+		max-width: 700px;
+	}
+}
+
+@media (max-width: 764px){
+	.projectos{
+		width: 500px;
+		height: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.projectos{
+		width: 300px;
+		height: 550px;
+	}
 }
