@@ -133,10 +133,17 @@ body{
 .titulos{
 	display: inline-block;
 	position: relative;
-	color: var(--Letras);
 	margin-bottom: 30px;
 	font-size: 30px;
+    color: var(--Letras);
+}
 
+.Et{
+    color: blue;
+}
+
+.Cs{
+    color: var(--colorP);
 }
 
 .titulos::after{
